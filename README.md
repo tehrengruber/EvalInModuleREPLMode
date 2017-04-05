@@ -19,7 +19,7 @@ module Foo end
 
 Press `:` inside the REPL to switch the mode. Afterwards enter the module
 you want to evaluate your code in, which is in this case `Foo`. Confirm
-by pressing enter again an proceed with pasting your code.
+by pressing enter again and proceed with pasting your code.
 
 ```
 julia> module Foo end
