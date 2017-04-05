@@ -47,13 +47,8 @@ let main_mode = Base.active_repl.interface.modes[1]
           reset_module()
           is_except = true
         end
-        #take!(buf) # empty buffer
       else
-        #LineEdit.edit_insert(s, mod_name)
-        #LineEdit.clear_input_area(s)
         LineEdit.edit_insert(s, mod_name)
-        #LineEdit.refresh_multi_line(s)
-        #write(buf, "123")
       end
       if is_except || !(typeof(mod) <: Module)
         LineEdit.clear_input_area(s)
