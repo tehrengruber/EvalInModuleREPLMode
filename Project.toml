@@ -1,0 +1,7 @@
+name = "EvalInModuleREPLMode"
+uuid = "7ccca6be-78f7-420d-b57d-2d611c178871"
+authors = ["Till Ehrengruber <till.ehrengruber@cscs.ch>"]
+version = "0.1.0"
+
+[deps]
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
