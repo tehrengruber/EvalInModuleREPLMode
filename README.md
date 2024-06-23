@@ -6,7 +6,7 @@ evalution of code inside a given module.
 ## Installation
 
 ```
-Pkg.add("https://github.com/tehrengruber/EvalInModuleREPLMode.git")
+Pkg.add(url="https://github.com/tehrengruber/EvalInModuleREPLMode.git")
 ```
 
 ## Example
